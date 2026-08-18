@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "你好"
+title: first-post
 date: 2026-08-18
 ---
 
