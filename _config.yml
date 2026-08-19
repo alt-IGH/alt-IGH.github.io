@@ -1,0 +1,31 @@
+# 网站基础设置
+title: 我的小博客
+email: your-email@example.com
+description: 一个记录随笔的地方
+baseurl: ""
+url: "https://alt-IGH.github.io"
+author: alt-IGH
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# 主题设置（这里我们不指定主题，用默认的）
+# theme: minima  # 这行暂时注释掉，用更基础的方式
+
+# 插件设置
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 文章显示设置
+show_excerpts: true
+
+# 默认值
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
