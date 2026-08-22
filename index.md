@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 首页
+title: hi
 ---
 
-# 📝 我的随笔
+# 📝 
 
 <ul>
   {% for post in site.posts %}
